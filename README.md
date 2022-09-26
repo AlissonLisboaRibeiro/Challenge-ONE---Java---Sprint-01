@@ -40,3 +40,24 @@ Pode-se alterar estes índices seguindo a ordem determinada:
 Para adicionar itens nessa lista basta alterar nos componentes <b>JCombobox</b> e no código com o devido índice monetário.
 <hr></hr>
 
+<h2>Conversão de temperatura</h2>
+
+O conversor de temperatura converte em graus Celsius, Kelvin e Fahrenheit. Funcionando de mesma maneira que o conversor de moeda, você pode escolher as unidades que quer converter após informar o valor.
+
+![tela_conversor_temperatura](https://user-images.githubusercontent.com/104919477/192263275-d2ba640d-2e55-4f8c-b5ae-1902f4089cda.png)
+
+
+As métricas utilizadas para conversão:
+
+<b>De Celsius para:</b>
+<li>Kelvin = °Celsius + 273.15;</li>
+<li>Fahrenheit = ((9.0/5.0) * °Celsius) + 32.0;</li>
+<br>
+<b>De Kelvin para:</b>
+<li>Celsius = °Kelvin - 273.15;</>
+<li>Fahrenheit = ((°Kelvin - 273.15) * (9.0/5.0)) + 32.0;</li>
+<br>
+<b>De Fahrenheit para:</b>
+<li>Celsius = (°Fahrenheit - 32.0) * (5.0/9.0);</li>
+<li>kelvin =  (°Fahrenheit - 32) * (5.0/9.0) + 273.15;</li>
+
